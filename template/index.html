@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title>ITM Book Store</title>
+    </head>
+
+        <body>
+         <div class="grid-container">
+             <header class="header">
+                 
+                 <div class="brand">
+                    <button onclick="openmenu()"> 
+                        &#9776;
+                    </button>
+                 <a  href="index.html">ITM BOOK STORE</a>
+                 </div>
+                 <div class="header-links">
+                     <a href="signin.html">SIGN IN</a>
+                     <a href="Cart.html">CART</a>
+                 </div>
+             </header>
+             <aside class="sidebar">
+                 <h3>BOOK GENRE</h3>
+                 <button class="sidebar-x-button" onclick="closemenu()">
+                     x
+                 </button>
+                 <ul>
+                     <li>
+                         <a href="Romance.html">Romance</a>
+                     </li>
+                     <li>
+                        <a href="Action.html">Action</a>
+                    </li>
+                 </ul>
+             </aside>
+
+             <main class="main">
+               <div class="Content">
+                <ul class="products">
+                    <li >
+                    <div class="product">
+                       <img class="product-image" src="/images/b1.jpg" alt="book">
+                       <div class="product-name"><a href="product.html" >The Subtle art of not giving a fuckg`</a></div>
+                       <div class="product-brand">Mark Manson</div>
+                       <div class="product-price">Rs250</div>
+                       <div class="product-stars">4.5stars (10reviews)</div>
+                    </div>    
+                    </li>
+                    <li >
+                        <div class="product">
+                           <img class="product-image" src="/images/b1.jpg" alt="book">
+                           <div class="product-name"><a href="product.html" >The Subtle art of not giving a fuckg`</a></div>
+                           <div class="product-brand">Mark Manson</div>
+                           <div class="product-price">Rs250</div>
+                           <div class="product-stars">4.5stars (10reviews)</div>
+                        </div>    
+                        </li>
+                        <li >
+                            <div class="product">
+                               <img class="product-image" src="/images/b1.jpg" alt="book">
+                               <div class="product-name"><a href="product.html" >The Subtle art of not giving a fuckg`</a></div>
+                               <div class="product-brand">Mark Manson</div>
+                               <div class="product-price">Rs250</div>
+                               <div class="product-stars">4.5stars (10reviews)</div>
+                            </div>    
+                            </li>
+                            <li >
+                                <div class="product">
+                                   <img class="product-image" src="/images/b1.jpg" alt="book">
+                                   <div class="product-name"><a href="product.html" >The Subtle art of not giving a fuckg`</a></div>
+                                   <div class="product-brand">Mark Manson</div>
+                                   <div class="product-price">Rs250</div>
+                                   <div class="product-stars">4.5stars (10reviews)</div>
+                                </div>    
+                                </li>
+                                <li >
+                                    <div class="product">
+                                       <img class="product-image" src="/images/b1.jpg" alt="book">
+                                       <div class="product-name"><a href="product.html" >The Subtle art of not giving a fuckg`</a></div>
+                                       <div class="product-brand">Mark Manson</div>
+                                       <div class="product-price">Rs250</div>
+                                       <div class="product-stars">4.5stars (10reviews)</div>
+                                    </div>    
+                                    </li>
+                                    <li >
+                                        <div class="product">
+                                           <img class="product-image" src="/images/b1.jpg" alt="book">
+                                           <div class="product-name"><a href="product.html" >The Subtle art of not giving a fuckg`</a></div>
+                                           <div class="product-brand">Mark Manson</div>
+                                           <div class="product-price">Rs250</div>
+                                           <div class="product-stars">4.5stars (10reviews)</div>
+                                        </div>    
+                                        </li>
+                </ul>
+                
+               </div>
+             </main>
+             <footer class="footer">
+                 COPYRIGHT @RP
+             </footer>
+         </div>
+         <script>
+             function openmenu(){
+                 const my=document.querySelector('.sidebar')
+                 my.classList.add("sidebar-open");
+             }
+             function closemenu(){
+                 document.querySelector(".sidebar").classList.remove("sidebar-open")
+             }
+         </script>
+
+        </body>
+    
+</html>
